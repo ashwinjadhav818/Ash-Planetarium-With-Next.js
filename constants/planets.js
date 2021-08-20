@@ -1,4 +1,4 @@
-export const planets = [
+const planets = [
 	{
 		name: 'Mercury',
 		img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/1024px-Mercury_in_color_-_Prockter07-edit1.jpg',
@@ -50,9 +50,11 @@ export const planets = [
 	},
 	{
 		name: 'Neptune',
-		img: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg',
+		img: 'https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg',
 		description:
 			'Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus.',
 		route: '/neptune-and-its-moons',
 	},
 ];
+
+export default planets;

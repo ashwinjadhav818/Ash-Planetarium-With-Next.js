@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Planets from '../components/Planets';
+import DwrafPlanets from '../components/DwrafPlanets';
 
 export default function Home() {
 	return (
@@ -43,6 +44,10 @@ export default function Home() {
 			<hr className="dark:border-gray-600" />
 
 			<Planets />
+
+			<hr className="dark:border-gray-600" />
+
+			<DwrafPlanets />
 		</div>
 	);
 }
