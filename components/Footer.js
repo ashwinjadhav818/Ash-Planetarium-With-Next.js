@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Footer() {
 	return (
-		<footer className="text-gray-600 dark:bg-gray-800 dark:text-white body-font">
+		<footer className="text-gray-600 body-font">
 			<div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
 				<div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
 					<Link href="/">
@@ -15,9 +15,7 @@ export default function Footer() {
 								width="40"
 								height="40"
 							/>
-							<span className="ml-3 text-xl dark:text-white">
-								Ash Planetarium
-							</span>
+							<span className="ml-3 text-xl">Ash Planetarium</span>
 						</a>
 					</Link>
 					<p className="mt-2 text-sm text-gray-500 dark:text-gray-100">
@@ -26,120 +24,94 @@ export default function Footer() {
 				</div>
 				<div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
 					<div className="lg:w-1/4 md:w-1/2 w-full px-4">
-						<h2 className="title-font font-medium text-gray-900 dark:text-white tracking-widest text-sm mb-3">
+						<h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
 							Planets
 						</h2>
 						<nav className="list-none mb-10">
 							<li>
 								<Link href="planets/mercury">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Mercury
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Mercury</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="planets/venus">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Venus
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Venus</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="planets/earth-and-its-moons/earth">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Earth
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Earth</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="planets/mars-and-its-moons/mars">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Mars
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Mars</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="planets/jupiter-and-its-moons/jupiter">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Jupiter
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Jupiter</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="planets/saturn">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Saturn
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Saturn</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="planets/uranus">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Uranus
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Uranus</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="planets/neptune">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Neptune
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Neptune</a>
 								</Link>
 							</li>
 						</nav>
 					</div>
 					<div className="lg:w-1/4 md:w-1/2 w-full px-4">
-						<h2 className="title-font font-medium text-gray-900 dark:text-white tracking-widest text-sm mb-3">
+						<h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
 							Dwraf Planets
 						</h2>
 						<nav className="list-none mb-10">
 							<li>
 								<Link href="/drawfplanet/pluto">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Pluto
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Pluto</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="/drawfplanet/eris">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Eris
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Eris</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="/drawfplanet/ceres">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Ceres
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Ceres</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="/drawfplanet/makemake">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Makemake
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Makemake</a>
 								</Link>
 							</li>
 							<li>
 								<Link href="/drawfplanet/haumea">
-									<a className="text-gray-600 dark:text-gray-200 hover:text-gray-800">
-										Haumea
-									</a>
+									<a className="text-gray-600 hover:text-gray-800">Haumea</a>
 								</Link>
 							</li>
 						</nav>
 					</div>
 				</div>
 			</div>
-			<div className="bg-gray-100 dark:bg-gray-700">
+			<div className="bg-gray-100">
 				<div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-					<p className="text-gray-500 dark:text-white text-sm text-center sm:text-left">
+					<p className="text-gray-500 text-sm text-center sm:text-left">
 						© 2020 Ash Planetarium —
 						<a
 							href="https://github.com/ashall-rounder"
 							rel="noopener noreferrer"
-							className="text-gray-600 dark:text-white ml-1"
+							className="text-gray-600 ml-1"
 							target="_blank"
 						>
 							Ash All-Rounder

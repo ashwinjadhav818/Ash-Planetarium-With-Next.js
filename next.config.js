@@ -9,6 +9,7 @@ module.exports = {
 			'solarsystem.nasa.gov',
 			'www.spaceexploration92.com',
 			'cdn.mos.cms.futurecdn.net',
+			'yt3.ggpht.com',
 		],
 	},
 };

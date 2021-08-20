@@ -11,7 +11,7 @@ export default function Home() {
 				<title>Ash Planetarium | Home</title>
 			</Head>
 
-			<section className="text-gray-600 dark:text-gray-300 body-font">
+			<section className="text-gray-600 body-font">
 				<div className="container mx-auto flex px-5 py-10 items-center justify-center flex-col">
 					<Image
 						className="object-cover object-center rounded"
@@ -21,7 +21,7 @@ export default function Home() {
 						width="1200"
 					/>
 					<div className="text-center mt-10 lg:w-2/3 w-full">
-						<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium dark:text-white text-gray-900">
+						<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
 							Welcome To Ash Planetarium
 						</h1>
 						<p className="mb-8 leading-relaxed">
@@ -41,13 +41,13 @@ export default function Home() {
 				</div>
 			</section>
 
-			<hr className="dark:border-gray-600" />
+			<hr />
 
-			<Planets />
+			<Planets title="Explore Planets" paddingY={true} />
 
-			<hr className="dark:border-gray-600" />
+			<hr />
 
-			<DwrafPlanets />
+			<DwrafPlanets title="Explore Dwraf Planets" paddingY={true} />
 		</div>
 	);
 }
